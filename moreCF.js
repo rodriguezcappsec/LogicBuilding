@@ -28,8 +28,4 @@ for (let index = 0; index < trainingData.length; index++) {
         break;
     }
 }
-if ((sumKey == 0 && sumValue == 0)) {
-    // console.log(0)
-} else {
-    // console.log((sumKey / sumValue));
-}
+((sumKey == 0 && sumValue == 0)) ? console.log(0): console.log((sumKey / sumValue));
